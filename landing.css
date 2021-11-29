@@ -1,0 +1,12 @@
+*{
+  font-family: roboto;
+}
+#navbar{
+    background-color: #1F2937;
+}
+h3{
+    font: 24px #F9FAF8;
+}
+ul{
+    text-decoration: none;
+}
