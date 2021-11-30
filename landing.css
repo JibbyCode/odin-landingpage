@@ -11,6 +11,10 @@ body{
     margin: 0;
     text-align: center;
 }
+
+
+/* Header CSS */
+
 #navbar{
     display:flex;
     align-items: center;
@@ -39,7 +43,7 @@ body{
 
 
 
-
+/* Hero CSS */
 
 #welcome{
     background-color: #1F2937;
@@ -88,7 +92,7 @@ h2{
     margin-top: 100px;
 }
 
-
+/* Information CSS */
 
 h4{
     font-size: 36px;
@@ -97,6 +101,7 @@ h4{
 }
 #info{
     align-items: center;
+    margin-bottom: 30px;
 }
 #content{
     display: flex;
@@ -108,4 +113,83 @@ h4{
     border: 5px solid #3882F6;
     border-radius: 15px;
     margin: 5px 30px 0px 20px;
+}
+
+
+
+/* Quote CSS */
+
+#quote{
+    background-color: #E5E7EB;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+}
+#quotation{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    text-align: left;
+    margin-left: 250px;
+    margin-right: 250px;
+} 
+#author{
+    bottom: 20px;
+    font-weight: bold;
+    position: relative;
+    margin-left: 400px;
+    margin-top: 10px;
+}
+
+
+/* Call To Action CSS */
+
+#act{
+    margin:30px 170px 30px 170px;
+}
+#action{
+    background-color: #3882F6;
+    border-radius: 5px;
+}
+#action h6{
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+    top: 50px;
+    right: 235px;
+    color: #F9FAF8;
+}
+#action p{
+    position: relative;
+    bottom: 10px;
+    right: 125px;
+    color: #F9FAF8;
+}
+#sec-button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    text-align: center;
+    width: 90px;
+    padding: 7px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #E5E7EB;
+    position: relative;
+    left: 230px;
+    bottom: 65px;
+}
+
+
+
+/* Footer CSS */
+
+footer{
+    background-color: #1F2937;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 30px;
+}
+footer p{
+    color: #E5E7EB;
 }
