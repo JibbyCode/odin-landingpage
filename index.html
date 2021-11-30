@@ -8,40 +8,51 @@
     <title>Landing Page</title>
 </head>
 <nav id="navbar">
-    <h3>Header Logo</h3>
-    <ul>
-        <li><a>Link 1</a></li>
-        <li><a>Link 2</a></li>
-        <li><a>Link 3</a></li>
-    </ul>
+    <div id="nav-logo"><h3>Header Logo</h3></div>
+    <div id="links">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>   
+    </div> 
 </nav>
 <body>
-    <section>
+    <div class="container">
         <div id="welcome">
-            <div>
+            <div class="wel-text">
             <h2>This website is awesome</h2>
-            <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
-            <input type="button" value="Sign up">
+            <p class="wel-text">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
+            <input type="button" id="main-button" value="Sign up">
         </div>
-        <div id="wel_img">
-            <img>
+        <div id="wel-img">
+            <img >
         </div>
         </div>
-    </section>
-    <section>
         <div id="info">
             <h4>Some random information.</h4>
-            <div class="info_img"><img><p>This is some subtext under an image</p></div>
-            <div class="info_img"><img><p>This is some subtext under an image</p></div>
-            <div class="info_img"><img><p>This is some subtext under an image</p></div>
-            <div class="info_img"><img><p>This is some subtext under an image</p></div>
-        </div>
-    </section>
-    <section>
-        <div id="quote"><p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space or maybe people will actually read it. Who knows? All I know is that it looks nice.</p><p>-Thor, God of Thunder</p></div></section>
-    <section>
-        <div id="action"><h6>Call to action! It's time!</h6><p>Sign up for our productivity by clickingthat button right over there!</p><input type="button" value="Sign up"></div></section>
+            <div id="content">
+            <div >
+                <img alt="">
+                <p>Subtext under an image</p>
+            </div>
+            <div >
+                <img alt="">
+                <p>Subtext under an image</p>
+            </div>
+            <div >
+                <img alt="">
+                <p>Subtext under an image</p>
+            </div>
+            <div >
+                <img alt="">
+                <p>Subtext under an image</p>
+            </div>
+        </div>        
+    </div>
+        <div id="quote"><p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space or maybe people will actually read it. Who knows? All I know is that it looks nice.</p><p>-Thor, God of Thunder</p></div>
+        <div id="action"><h6>Call to action! It's time!</h6><p>Sign up for our productivity by clickingthat button right over there!</p><input type="button" value="Sign up"></div>
+    </div>
 </body>
-<footer><p>Copyright   The Odin Project 2021</p>
+<footer><p>Copyright &copy; The Odin Project 2021</p>
 </footer>
+
 </html>
